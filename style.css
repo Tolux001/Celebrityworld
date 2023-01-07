@@ -153,6 +153,7 @@ border-radius: 7px;}
   margin: 10px;
   box-shadow: 2px 2px 1px #777;
   opacity: 0.9;
+	  cursor:pointer;
   border-radius: 10px;}
 	.shoe:hover, .shoe:active, .shoe:focus {opacity: 0.7;}
  li{list-style: none;}
