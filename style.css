@@ -1,0 +1,280 @@
+* { box-sizing: border-box;
+max-width: 100%;
+margin: 0 auto;}
+.topnav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  display: none;}
+.modal {
+  position: absolute;
+  background-color: transparent;
+  padding: 20px 0 40px;
+  border-radius: 15px;
+  width: 500px;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;}
+  .modal a {
+    display: block;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px 0;
+    font-family: 'Tangerine', serif;}
+.fa-circle-xmark {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  color: white;
+  cursor: pointer;}
+header{
+padding: 20px 10px;
+background-color: rgb(190, 196, 201);
+height: 80px;}
+.headerimg {
+  float: left;
+    height: 20px;
+    cursor: pointer;
+    width: 40px;
+transition: 0.3s ease;}
+.headerlist ul {float: right;}
+.headerlist ul li {list-style: none;
+  float: left;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Verdana';
+  color: rgb(247, 214, 174);
+  padding: 0 0 0 10px;}
+  .headerlist ul li:hover {
+      border: none;
+      color: rgb(247, 244, 240);
+      border-left: 4px solid black;}
+ header label {display: none;}
+  .log, .quote{
+  padding: 5px 10px;
+  text-decoration: none;
+ background-color: rgb(233, 80, 80);
+   color: #ffeed2;
+   border-radius: 6px;
+   border: none;}
+  .log:hover, .quote:hover{
+   background-color: #ffeed2;
+    color: rgb(210, 65, 50);}
+  section {
+    background-image:url('pc/background1.jpeg');
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	height: 500px;
+	position:relative;
+	overflow: auto;}
+    .welcome {
+	width: 90%;
+	padding: 20px 0 10px 0;
+	color: white;
+	justify-content: center;
+	align-items: center;
+	text-align: center;}
+	.heading {
+  font-weight: bold;
+  font-size: 2.4em;}
+.heading .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;}
+.heading .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  background-color: #fff;
+  transform-origin: 0 50%;}
+.heading .line1 { 
+  top: 0; 
+  left: 0;}
+.heading .letters {
+  font-family: 'Cantarell';
+	text-shadow: 5px 5px 1px #aaa;
+  display: inline-block;
+  color: white;
+  line-height: 1em;}
+.welcome p {
+	font-size:25px;
+	margin-top: 20px;
+	font-weight: 500;
+	line-height: 50px;}
+.hidden {display: none;}
+.btn-btn {
+background-color: transparent;
+margin: 50px 0;
+color: white;
+border: 2px solid dodgerblue;
+font-size: 15px;
+padding: 8px 50px;
+border-radius: 7px;}
+ .media-icons{
+   padding: 5px 0;
+   display: flex;
+    flex-wrap: wrap;
+   text-align: center;
+    justify-content:center;
+	  align-items:center;}
+    .media-icons a {
+      font-size: 28px;
+      color: white;
+      transition-property: transform;
+      margin: 0 20px;}
+    .media-icons a:hover {
+      transform: scale(1.5);
+      transition: 0.3s ease;}
+  .example {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 1000px;}
+  .example>* {flex: 1 1 160px;}
+  .example {display: none;}
+  .active{display: block;}
+  .shoe{width:300px;
+	height:200px;
+  margin: 10px;
+  box-shadow: 2px 2px 1px #777;
+  opacity: 0.9;
+  border-radius: 10px;}
+	.shoe:hover, .shoe:active, .shoe:focus {opacity: 0.7;}
+ li{list-style: none;}
+.main {overflow: auto;}
+  .ml1 {
+  position: relative;
+  padding: 10px 20px;
+  font-weight: 900;
+  font-size: 1.3em;}
+.ml1 .letter {
+  transform-origin: 0 100%;
+  display: inline-block;
+  line-height: 1em;
+  font-family: 'Inconsolata';
+    word-spacing: 7px;
+    text-shadow: 0 2px 3px #777;
+    color: white;
+    letter-spacing: -1px;}
+.ml1 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;}
+  .slides {
+    text-align: center;
+    justify-content:center;
+	  align-items:center;
+    background-color: #ea8750;}
+  .product-slide {
+    display: flex;
+    flex: 3;
+    justify-content:center;
+	  align-items:center;
+    text-align: center;
+    margin: 10px 0 35px 0;}
+  .product-btn {
+  font-weight: bold;
+  font-size: 25px;
+  color: #ea8741;
+  background-color: #ffeed2;
+  padding: 10px 30px;
+  border-radius: 8px;
+  margin: 0 8px;}
+.product-btn:hover, .product-btn:focus{
+  color: tomato;
+  background-color: #ffffec;}
+.section-two{
+  padding: 30px 0;
+ background-color: #9992;
+ text-align: center;
+ justify-content:center;
+ font-size: 30px;
+ font-family: 'Baskerville';
+ align-items:center;}
+ .section-two h4 {
+   color: orange;
+   padding: 20px 0;}
+ .section-two a {
+   text-decoration: none;
+   background-color: black;
+   border: 3px solid #fff;
+   color: white;
+   border-radius: 40px;
+   padding: 14px 40px;
+   font-weight: bold;}
+footer {
+background-color: black;
+width: 100%;
+text-align: center;
+justify-content: center;
+padding: 20px 0;}
+footer li {
+padding: 0 40px;
+display: inline-block;}
+.down a {text-decoration: none;
+  color: white;
+  padding-top: 8px;
+font-weight: bold;
+font-size: 18px;
+font-family: verdana;}
+.nav {
+  background-color: white;
+  color: black;
+  display: flex;
+  padding: 10px 0;}
+  .scrolltop-btn {
+    border-radius: 55%;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    padding: 5px 5px;
+    margin: 0 0 0 10px;
+    width: 50px;
+    height: auto;
+    font-size: 50px;
+    bottom: 0;
+    position: fixed;
+    z-index: 100;
+  }
+  @media (max-width: 768px){
+    .headerlist {display: none;}
+ header label {display: block;
+   cursor: pointer;
+   font-size: 30px;
+   float: right;
+  color: white;}
+  .heading {font-size: 1.69em;}
+    .welcome p{font-size: 12px;
+      line-height: 30px;}
+     .btn {font-size: 10px;
+     padding: 7px 30px;}
+     .product-btn{
+       font-size: 15px;
+       padding: 5px 10px;}
+      .example {width: 100%;}
+     .shoe {
+       width: 150px;
+       height: 110px;
+       margin: 6px 1px;}
+     .section-two{font-size: 15px;}
+  .section-two a {padding: 9px 30px;}
+     footer li {padding: 0 10px;}
+     footer {padding: 5px 0;}
+  .scrolltop-btn {margin: 0 0 0 4px;
+  width: 27px;
+  font-size: 25px;
+  }
