@@ -28,7 +28,7 @@ background-color: rgba(0, 0, 0, 0.5);
 	  
     text-decoration: none;
     margin: 10px 0;
-    font-family: 'Times new roman';}
+    font-family: 'Tangerine', serif;}
 .fa-circle-xmark {
   position: absolute;
   top: 12px;
@@ -50,7 +50,7 @@ transition: 0.3s ease;}
   float: left;
   font-size: 18px;
   font-weight: bold;
-  font-family: 'Verdana';
+  font-family: 'Times new roman';
   color: rgb(247, 214, 174);
   padding: 0 0 0 10px;}
   .headerlist ul li:hover {
